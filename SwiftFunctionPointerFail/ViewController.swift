@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        MIDIManager.sharedInstance.enableNetwork()
+        var dests = MIDIManager.sharedInstance.getDestinations()
+        
+        for (key, value) in dests {
+            println("dest \(key) \(value)")
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

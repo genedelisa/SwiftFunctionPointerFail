@@ -13,6 +13,7 @@
 		B08CB9A51AD6C8780027A85B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08CB9A41AD6C8780027A85B /* Images.xcassets */; };
 		B08CB9A81AD6C8780027A85B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08CB9A61AD6C8780027A85B /* LaunchScreen.xib */; };
 		B08CB9B41AD6C8790027A85B /* SwiftFunctionPointerFailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08CB9B31AD6C8790027A85B /* SwiftFunctionPointerFailTests.swift */; };
+		B0D2ADFB1AD6CE3F0050A826 /* MIDIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D2ADFA1AD6CE3F0050A826 /* MIDIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		B08CB9AD1AD6C8790027A85B /* SwiftFunctionPointerFailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFunctionPointerFailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08CB9B21AD6C8790027A85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08CB9B31AD6C8790027A85B /* SwiftFunctionPointerFailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFunctionPointerFailTests.swift; sourceTree = "<group>"; };
+		B0D2ADF81AD6CE050050A826 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B0D2ADFA1AD6CE3F0050A826 /* MIDIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 		B08CB98F1AD6C8780027A85B = {
 			isa = PBXGroup;
 			children = (
+				B0D2ADF81AD6CE050050A826 /* README.md */,
 				B08CB99A1AD6C8780027A85B /* SwiftFunctionPointerFail */,
 				B08CB9B01AD6C8790027A85B /* SwiftFunctionPointerFailTests */,
 				B08CB9991AD6C8780027A85B /* Products */,
@@ -77,6 +81,7 @@
 		B08CB99A1AD6C8780027A85B /* SwiftFunctionPointerFail */ = {
 			isa = PBXGroup;
 			children = (
+				B0D2ADFA1AD6CE3F0050A826 /* MIDIManager.swift */,
 				B08CB99D1AD6C8780027A85B /* AppDelegate.swift */,
 				B08CB99F1AD6C8780027A85B /* ViewController.swift */,
 				B08CB9A11AD6C8780027A85B /* Main.storyboard */,
@@ -213,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08CB9A01AD6C8780027A85B /* ViewController.swift in Sources */,
+				B0D2ADFB1AD6CE3F0050A826 /* MIDIManager.swift in Sources */,
 				B08CB99E1AD6C8780027A85B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +417,7 @@
 				B08CB9B91AD6C8790027A85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B08CB9BA1AD6C8790027A85B /* Build configuration list for PBXNativeTarget "SwiftFunctionPointerFailTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				B08CB9BC1AD6C8790027A85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
